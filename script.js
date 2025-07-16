@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const generationCounter = document.getElementById('generationCounter');
 
     // ## Grid Configuration ##
-    // UPDATED: Changed to ultrawide dimensions
     const cellSize = 15;
     const canvasWidth = 1200;
     const canvasHeight = 660;
@@ -194,6 +193,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // ## Initial Draw
+    // ## Initialize Draw
     drawGrid();
 });
