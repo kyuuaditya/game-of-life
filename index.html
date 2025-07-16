@@ -7,20 +7,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <h1>Conway's Game of Life 🧬</h1>
-        <div class="controls">
-            <button id="startStopBtn">Start</button>
-            <button id="clearBtn">Clear</button>
-            <button id="randomBtn">Random</button>
-            <span id="generationCounter">Generation: 0</span>
-        </div>
-        <canvas id="gameCanvas"></canvas>
-    </main>
+    <div class="page-container">
+        
+        <aside class="sidebar left-sidebar">
+            <h3>Controls</h3>
+            <p><strong>Left-Click:</strong> Draw cells</p>
+            <p><strong>Right-Click:</strong> Erase cells</p>
+        </aside>
+
+        <main>
+            <h1>Conway's Game of Life 🧬</h1>
+            <div class="controls">
+                <button id="startStopBtn">Start</button>
+                <button id="clearBtn">Clear</button>
+                <button id="randomBtn">Random</button>
+                <span id="generationCounter">Generation: 0</span>
+            </div>
+            <canvas id="gameCanvas"></canvas>
+        </main>
+
+        <aside class="sidebar right-sidebar">
+            <h3>Learn More</h3>
+            <p>
+                <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">
+                    Read on Wikipedia
+                </a>
+            </p>
+        </aside>
+
+    </div>
     
     <footer>
       <p class="footer-text">Made with ❤️ by Aditya</p>
-      <a href="https://github.com/kyuuaditya/game-of-life" target="_blank">
+      <a href="https://github.com/your-username/game-of-life" target="_blank">
         <img src="https://img.shields.io/badge/View%20on-GitHub-blue?style=for-the-badge&logo=github" alt="View on GitHub">
       </a>
     </footer>

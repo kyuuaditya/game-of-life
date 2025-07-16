@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // ## Colors
     const LIVE_COLOR = "#333333ff";
-    const DEAD_COLOR = "#f0f0f0ff";
-    const GRID_COLOR = "#ccccccff";
+    const DEAD_COLOR = "#c9c9c9ff";
+    const GRID_COLOR = "#919191ff";
 
     // ## Simulation State
     let grid = createGrid();
