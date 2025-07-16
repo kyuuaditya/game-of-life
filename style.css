@@ -1,0 +1,88 @@
+/* Universal rule to fix width calculation issues */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e6bbbe;
+    margin: 0;
+
+    /* --- Changes for Sticky Footer --- */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+/* UPDATED: Reduced top/bottom padding */
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+/* UPDATED: Reduced top margin */
+h1 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#clearBtn {
+    background-color: #dc3545;
+}
+#clearBtn:hover {
+    background-color: #c82333;
+}
+
+#generationCounter {
+    font-size: 16px;
+    color: #555;
+    min-width: 120px;
+}
+
+canvas {
+    border: 2px solid #333;
+    background-color: #fff;
+    cursor: crosshair;
+}
+
+/* UPDATED: Reduced vertical padding */
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #161b22;
+    color: #c9d1d9;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 1.1em;
+    margin: 0 0 10px 0;
+}
